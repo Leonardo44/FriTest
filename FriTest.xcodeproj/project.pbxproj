@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31DC45B2B7AFFB000E38FD2 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = B31DC45A2B7AFFB000E38FD2 /* OrderedCollections */; };
 		B3B4768F2B7AACE8005B8104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4768E2B7AACE8005B8104 /* AppDelegate.swift */; };
 		B3B476912B7AACE8005B8104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476902B7AACE8005B8104 /* SceneDelegate.swift */; };
-		B3B476932B7AACE8005B8104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476922B7AACE8005B8104 /* ViewController.swift */; };
+		B3B476932B7AACE8005B8104 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476922B7AACE8005B8104 /* HomeVC.swift */; };
 		B3B476962B7AACE8005B8104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B476942B7AACE8005B8104 /* Main.storyboard */; };
 		B3B476992B7AACE8005B8104 /* FriTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3B476972B7AACE8005B8104 /* FriTest.xcdatamodeld */; };
 		B3B4769B2B7AACE9005B8104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B4769A2B7AACE9005B8104 /* Assets.xcassets */; };
@@ -17,6 +18,17 @@
 		B3B476A92B7AACE9005B8104 /* FriTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476A82B7AACE9005B8104 /* FriTestTests.swift */; };
 		B3B476B32B7AACE9005B8104 /* FriTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476B22B7AACE9005B8104 /* FriTestUITests.swift */; };
 		B3B476B52B7AACE9005B8104 /* FriTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476B42B7AACE9005B8104 /* FriTestUITestsLaunchTests.swift */; };
+		B3B476CF2B7ACE2B005B8104 /* MealAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476CE2B7ACE2B005B8104 /* MealAPI.swift */; };
+		B3B476D32B7ACEE9005B8104 /* MealServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476D22B7ACEE9005B8104 /* MealServiceAPI.swift */; };
+		B3B476D52B7AD071005B8104 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476D42B7AD071005B8104 /* HomeAPI.swift */; };
+		B3B476D82B7AD0CB005B8104 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476D72B7AD0CB005B8104 /* NetworkError.swift */; };
+		B3B476DB2B7AD38C005B8104 /* FetchMealDataFromServiceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476DA2B7AD38C005B8104 /* FetchMealDataFromServiceUseCase.swift */; };
+		B3B476DE2B7AD445005B8104 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476DD2B7AD445005B8104 /* HomeViewModel.swift */; };
+		B3B476E02B7AD4C1005B8104 /* UiDataStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476DF2B7AD4C1005B8104 /* UiDataStatus.swift */; };
+		B3B476E42B7AD7F7005B8104 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B476E22B7AD7F7005B8104 /* MealTableViewCell.swift */; };
+		B3B476E52B7AD7F7005B8104 /* MealTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B476E32B7AD7F7005B8104 /* MealTableViewCell.xib */; };
+		B3B476E82B7ADC80005B8104 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B3B476E72B7ADC80005B8104 /* SDWebImage */; };
+		B3B476EA2B7ADC80005B8104 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B3B476E92B7ADC80005B8104 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +52,7 @@
 		B3B4768B2B7AACE8005B8104 /* FriTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B4768E2B7AACE8005B8104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3B476902B7AACE8005B8104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3B476922B7AACE8005B8104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3B476922B7AACE8005B8104 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		B3B476952B7AACE8005B8104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3B476982B7AACE8005B8104 /* FriTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriTest.xcdatamodel; sourceTree = "<group>"; };
 		B3B4769A2B7AACE9005B8104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,15 @@
 		B3B476AE2B7AACE9005B8104 /* FriTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B476B22B7AACE9005B8104 /* FriTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriTestUITests.swift; sourceTree = "<group>"; };
 		B3B476B42B7AACE9005B8104 /* FriTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3B476CE2B7ACE2B005B8104 /* MealAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAPI.swift; sourceTree = "<group>"; };
+		B3B476D22B7ACEE9005B8104 /* MealServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealServiceAPI.swift; sourceTree = "<group>"; };
+		B3B476D42B7AD071005B8104 /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		B3B476D72B7AD0CB005B8104 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		B3B476DA2B7AD38C005B8104 /* FetchMealDataFromServiceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMealDataFromServiceUseCase.swift; sourceTree = "<group>"; };
+		B3B476DD2B7AD445005B8104 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B3B476DF2B7AD4C1005B8104 /* UiDataStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiDataStatus.swift; sourceTree = "<group>"; };
+		B3B476E22B7AD7F7005B8104 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		B3B476E32B7AD7F7005B8104 /* MealTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B476EA2B7ADC80005B8104 /* SDWebImageMapKit in Frameworks */,
+				B3B476E82B7ADC80005B8104 /* SDWebImage in Frameworks */,
+				B31DC45B2B7AFFB000E38FD2 /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +125,10 @@
 		B3B4768D2B7AACE8005B8104 /* FriTest */ = {
 			isa = PBXGroup;
 			children = (
+				B3B476D12B7ACED8005B8104 /* Ui */,
+				B3B476CC2B7ACDF3005B8104 /* Core */,
 				B3B4768E2B7AACE8005B8104 /* AppDelegate.swift */,
 				B3B476902B7AACE8005B8104 /* SceneDelegate.swift */,
-				B3B476922B7AACE8005B8104 /* ViewController.swift */,
 				B3B476942B7AACE8005B8104 /* Main.storyboard */,
 				B3B4769A2B7AACE9005B8104 /* Assets.xcassets */,
 				B3B4769C2B7AACE9005B8104 /* LaunchScreen.storyboard */,
@@ -130,6 +155,78 @@
 			path = FriTestUITests;
 			sourceTree = "<group>";
 		};
+		B3B476CC2B7ACDF3005B8104 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476D92B7AD372005B8104 /* Use Case */,
+				B3B476D62B7AD0BD005B8104 /* Utilities */,
+				B3B476D02B7ACEB1005B8104 /* Service */,
+				B3B476CD2B7ACDF9005B8104 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B3B476CD2B7ACDF9005B8104 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476CE2B7ACE2B005B8104 /* MealAPI.swift */,
+				B3B476D42B7AD071005B8104 /* HomeAPI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3B476D02B7ACEB1005B8104 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476D22B7ACEE9005B8104 /* MealServiceAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B3B476D12B7ACED8005B8104 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476E12B7AD7CA005B8104 /* Cell */,
+				B3B476DC2B7AD433005B8104 /* View Model */,
+				B3B476922B7AACE8005B8104 /* HomeVC.swift */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		B3B476D62B7AD0BD005B8104 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476D72B7AD0CB005B8104 /* NetworkError.swift */,
+				B3B476DF2B7AD4C1005B8104 /* UiDataStatus.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B3B476D92B7AD372005B8104 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476DA2B7AD38C005B8104 /* FetchMealDataFromServiceUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		B3B476DC2B7AD433005B8104 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476DD2B7AD445005B8104 /* HomeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B3B476E12B7AD7CA005B8104 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3B476E22B7AD7F7005B8104 /* MealTableViewCell.swift */,
+				B3B476E32B7AD7F7005B8104 /* MealTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +243,11 @@
 			dependencies = (
 			);
 			name = FriTest;
+			packageProductDependencies = (
+				B3B476E72B7ADC80005B8104 /* SDWebImage */,
+				B3B476E92B7ADC80005B8104 /* SDWebImageMapKit */,
+				B31DC45A2B7AFFB000E38FD2 /* OrderedCollections */,
+			);
 			productName = FriTest;
 			productReference = B3B4768B2B7AACE8005B8104 /* FriTest.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +320,10 @@
 				Base,
 			);
 			mainGroup = B3B476822B7AACE8005B8104;
+			packageReferences = (
+				B3B476E62B7ADC80005B8104 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				B31DC4592B7AFFB000E38FD2 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = B3B4768C2B7AACE8005B8104 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B476E52B7AD7F7005B8104 /* MealTableViewCell.xib in Resources */,
 				B3B4769E2B7AACE9005B8104 /* LaunchScreen.storyboard in Resources */,
 				B3B4769B2B7AACE9005B8104 /* Assets.xcassets in Resources */,
 				B3B476962B7AACE8005B8104 /* Main.storyboard in Resources */,
@@ -261,10 +368,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B476932B7AACE8005B8104 /* ViewController.swift in Sources */,
+				B3B476D52B7AD071005B8104 /* HomeAPI.swift in Sources */,
+				B3B476D82B7AD0CB005B8104 /* NetworkError.swift in Sources */,
+				B3B476932B7AACE8005B8104 /* HomeVC.swift in Sources */,
+				B3B476DE2B7AD445005B8104 /* HomeViewModel.swift in Sources */,
 				B3B476992B7AACE8005B8104 /* FriTest.xcdatamodeld in Sources */,
+				B3B476CF2B7ACE2B005B8104 /* MealAPI.swift in Sources */,
 				B3B4768F2B7AACE8005B8104 /* AppDelegate.swift in Sources */,
+				B3B476E02B7AD4C1005B8104 /* UiDataStatus.swift in Sources */,
+				B3B476E42B7AD7F7005B8104 /* MealTableViewCell.swift in Sources */,
 				B3B476912B7AACE8005B8104 /* SceneDelegate.swift in Sources */,
+				B3B476D32B7ACEE9005B8104 /* MealServiceAPI.swift in Sources */,
+				B3B476DB2B7AD38C005B8104 /* FetchMealDataFromServiceUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +726,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B31DC4592B7AFFB000E38FD2 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		B3B476E62B7ADC80005B8104 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B31DC45A2B7AFFB000E38FD2 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B31DC4592B7AFFB000E38FD2 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		B3B476E72B7ADC80005B8104 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3B476E62B7ADC80005B8104 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B3B476E92B7ADC80005B8104 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3B476E62B7ADC80005B8104 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B3B476972B7AACE8005B8104 /* FriTest.xcdatamodeld */ = {
