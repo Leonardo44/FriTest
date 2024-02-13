@@ -63,11 +63,7 @@ class HomeVC: UIViewController {
                 case .success:
                     self?.tableView.refreshControl?.endRefreshing()
                     self?.tableView.refreshControl = nil
-                    
-                    self?.tableView.refreshControl?.endRefreshing()
-                    let alert = UIAlertController(title: "FriTest App", message: "Se ha completado la carga de información", preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
-                    }))
+                    self?.createSnapshot(Array(self?.viewModel?.mealsData ?? []))
                 }
             }
             .store(in: &cancellabe)

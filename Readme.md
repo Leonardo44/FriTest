@@ -7,7 +7,7 @@ Obtener y listar 20 elementos diferentes desde la [API](https://www.themealdb.co
 2. iOS 17 o superior.
 
 ## Video de aplicación
-1. [Enlace](https://drive.google.com/file/d/1POpg8Gt4VSOTuqbk_BV9gMO_V2tle-IL/view?usp=sharing).
+1. [Enlace](https://drive.google.com/file/d/15rrEzfuvLcK-YYVYquabEW_ENwIdI8du/view?usp=sharing).
 
 ## Tecnologías utilizadas
 2. UIKit.

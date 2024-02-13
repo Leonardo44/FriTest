@@ -44,7 +44,7 @@ final class HomeViewModel: HomeViewModelI {
     }
     
     func fetchData() {
-        if dataStatus.value != .loading && mealsData.count < 20 {
+        if dataStatus.value != .loading && mealsData.count < 21 {
             dataStatus.value = .loading
             
             fetchMealDataUseCase.execute()
@@ -56,9 +56,8 @@ final class HomeViewModel: HomeViewModelI {
                             self?.dataStatus.value = .success
                         } else {
                             self?.dataStatus.value = .refresh
+                            self?.fetchData()
                         }
-                        
-                        self?.fetchData()
                     case .failure(_):
                         self?.dataStatus.value = .error
                     }
